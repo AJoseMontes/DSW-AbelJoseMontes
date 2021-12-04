@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hojas de Estilos CSS y Frameworks CSS</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.png">
+    <link rel="stylesheet" href="../estilo.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <div class="container-fluid bg-secondary">
+        <div class="col">
+          <h1 class="text-center fs-1 py-4">Hojas de Estilo en Cascada CSS, Frameworks CSS</h1>
+            <header class="d-flex justify-content-center py-0 bg-header">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Temas
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">Hojas de Estilos CSS</a></li>
+                              <li><a class="dropdown-item" href="frameworks.html">Frameworks CSS</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Recursos Digitales
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="../recursos/podcast.html">Podcasts</a></li>
+                              <li><a class="dropdown-item" href="../recursos/video.html">Multimedia</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Aprendizaje
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="../tareas/quiz1.html">Quiz 1</a></li>
+                              <li><a class="dropdown-item" href="../tareas/quiz2.html">Quiz 2</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../info.html">Autor</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </header>
+        <hr>
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-item">
+            <h1>¿Qué es CSS?</h1>
+            <p>
+                CSS (en inglés Cascading Style Sheets) es lo que se denomina lenguaje de hojas de estilo en cascada
+                y se usa para estilizar elementos escritos en un lenguaje de marcado como HTML. CSS separa el contenido
+                de la representación visual del sitio.
+            </p>
+        </div>
+        <div class="flex-item">
+            <h1>Ventajas de CSS</h1>
+            <p>
+                La diferencia entre un sitio web que implementa CSS y uno que no, es enorme y definitivamente se nota. 
+                CSS permite estilizar todo en un archivo diferente, creando el estilo allí y después integrando el archivo 
+                CSS sobre el marcado HTML. Esto hace que el marcado HTML sea mucho más limpio y fácil de mantener.
+                CSS te permite tener múltiples estilos en una página HTML, y esto hace que las posibilidades de personalización 
+                sean casi infinitas. Hoy en día, esto se está volviendo una necesidad más que algo básico.
+             </p>
+        </div>
+        <div class="flex-item">
+            <h1>Cómo funciona CSS</h1>
+            <p>
+                CSS utiliza una sintaxis simple basada en el inglés con un conjunto de reglas que la gobiernan.
+                La estructura de sintaxis CSS es bastante simple. Cuenta con un selector y un bloque de declaración. 
+                Primero se selecciona un elemento y luego se declara lo que se quiere hacer con él.
+                El selector apunta al elemento HTML que deseas estilizar. El bloque de declaración contiene una o más 
+                declaraciones separadas por punto y coma. Cada declaración incluye un nombre de propiedad CSS y un valor, 
+                separados por dos puntos. Una declaración CSS siempre termina con un punto y coma, y los bloques de declaración
+                están rodeados por llaves. <br><br>
+                <img src="img/example1.png" width="360px">
+                <img src="img/example2.png" width="350px">
+             </p>
+        </div>
+        <div class="flex-item">
+            <h1>3 Estilos de implementación de CSS</h1>
+            <p>
+                <b> Estilo Interno:</b> Los estilos CSS hechos de esta manera se cargan cada vez que se actualiza un sitio web, lo que
+                puede aumentar el tiempo de carga. Además, no podrás usar el mismo estilo CSS en varias páginas, ya que está 
+                contenido en una sola página. Sin embargo, esto también tiene sus beneficios. Tener todo en una página facilita 
+                compartir la plantilla para una vista previa. <br><br>
+                <b> Estilo Externo:</b> podría ser el más conveniente. Todo se hace externamente en un archivo .css. Esto significa que 
+                puedes hacer todo el estilizado en un archivo separado y aplicar el CSS a cualquier página que quieras. 
+                El estilo Externo también puede mejorar los tiempos de carga. <br><br>
+                <b>Estilo Inline:</b> trabaja con elementos específicos que tienen la etiqueta  Cada componente tiene que ser 
+                estilizado, por lo que podría no ser la mejor forma, ni la más rápida para manejar CSS. Pero puede ser útil, por 
+                ejemplo, si quieres cambiar un solo elemento, tener una vista previa rápida de los cambios o tal vez no tengas 
+                acceso  los archivos CSS.
+             </p>
+        </div>
+        <div class="flex-item">
+            <h1>Bibliografía</h1>
+            <p>
+                <i>Pilamunga Poveda, E. M., & DT-López Sevilla, G. M. (2012). <br>
+                    El maquetado a base de scripts y hojas de estilo en cascada (CSS) y su incidencia en la optimización de un sitio web. <br></i> 
+                <br>
+                <i>Durango, A. (2015). Diseño Web con CSS: 2ª Edición. IT Campus Academy.</i>
+            </p>
+        </div>
+    </div>
+
+    <footer class="footer mt-4 py-3 bg-light text-center">
+      <div class="container">
+        <span class="fw-muted">
+          E-mail: ajmontesa@unadvirtual.edu.co <br> Skype: abel.monts2014_1 <br> 28/11/2021
+        </span>
+      </div>
+  </footer>
+</body>
+</html>

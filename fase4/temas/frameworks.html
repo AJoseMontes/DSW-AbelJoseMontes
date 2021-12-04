@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hojas de Estilos CSS y Frameworks CSS</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.png">
+    <link rel="stylesheet" href="../estilo.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <div class="container-fluid bg-secondary">
+        <div class="col">
+          <h1 class="text-center fs-1 py-4">Hojas de Estilo en Cascada CSS, Frameworks CSS</h1>
+            <header class="d-flex justify-content-center py-0 bg-header">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Temas
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">Hojas de Estilos CSS</a></li>
+                              <li><a class="dropdown-item" href="frameworks.html">Frameworks CSS</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Recursos Digitales
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="../recursos/podcast.html">Podcasts</a></li>
+                              <li><a class="dropdown-item" href="../recursos/video.html">Multimedia</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Aprendizaje
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="../tareas/quiz1.html">Quiz 1</a></li>
+                              <li><a class="dropdown-item" href="../tareas/quiz2.html">Quiz 2</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../info.html">Autor</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </header>
+        <hr>
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-item">
+            <h1>¿Qué es un Framework?</h1>
+            <p>
+                Un framework es un esquema o marco de trabajo que ofrece una estructura base para 
+                elaborar un proyecto con objetivos específicos, una especie de plantilla que sirve 
+                como punto de partida para la organización y desarrollo de software.
+            </p>
+        </div>
+        <div class="flex-item">
+            <h1>¿Para qué sirve?</h1>
+            <p>
+                Un framework sirve para desarrollar un proyecto en menos tiempo con un código más 
+                limpio y consistente, de manera rápida y eficaz, ya que ofrece una estructura base 
+                que los programadores pueden complementar o modificar según sus objetivos.
+            </p>
+        </div>
+        <div class="flex-item">
+            <h1>Tipos de Framework</h1>
+            <p>
+                <ul>
+                    <li>Para aplicaciones web</li>
+                    <li>Para aplicaciones en genera</li>
+                    <li>Para tecnología AJAX</li>
+                    <li>Para gestión de contenidos</li>
+                    <li>Para Multimedia</li>
+                </ul>
+            </p>
+        </div>
+        <div class="flex-item">
+            <h1>¿Qué es un framework CSS?</h1>
+            <p>
+                Un framework CSS es un conjunto de herramientas, hojas de estilos y buenas prácticas 
+                que permiten al diseñador web olvidarse de las tareas repetitivas para centrarse en 
+                los elementos únicos de cada diseño en los que puede aportar valor.
+            </p>
+        </div>
+    </div>
+
+    <div class="flex-item2">
+        <h1>FRAMEWORKS CSS MAS POPULARES</h1>
+    </div>  
+
+    <div class="flex-container">
+        <div class="flex-item">
+            <h1>Bootstrap</h1>
+            <img src="img/bootstrap.png" width="360px">
+            <p>
+                Uno de los más populares en la actualidad, cuenta con características muy importantes 
+                como esquemas de color, modificadores, clases útiles para usar formularios, cards, 
+                listas, tablas, videos, carrusel, ventanas modales, tooltips, etc. Esta construida 
+                sobre SASS y es compatible con LESS
+            </p>
+        </div>
+        <div class="flex-item">
+            <h1>Bulma</h1>
+            <img src="img/bulma.png" width="360px">
+            <p>
+                Este Framework CSS es open source y esta creado para trabajar con el diseño de cajas 
+                flexibles o Flexbox. Bulma es muy ligero, liviano y con soporte para móviles. Cuenta 
+                con mas de 200 mil usuarios hasta la actualidad y se encuentra entre los Frameworks 
+                más populares del área, junto con Bootstrap y Foundation.
+            </p>
+        </div>
+        <div class="flex-item">
+        <h1>Pure CSS</h1>
+        <img src="img/pure.png" width="360px">
+        <p>
+            Este Framework es adaptable a los dispositivos y fue creado por la empresa Yahoo por el año 
+            2014, fue construido sobre la herramienta Normalize CSS. A diferencia de Bootstrap, no permite 
+            crear diseños fijos y es muy ligero, Este Framework cuenta con menús verticales, horizontales 
+            y desplegables, asimismo con formularios, botones, tablas, etc.
+        </p>
+        </div>
+    <div class="flex-item">
+        <h1>Tailwindcss</h1>
+        <img src="img/tailwindcss.svg" width="360px">
+        <p>
+            Este Framework es muy personalizable, se centra en los nombre de clases, te permite crear una 
+            interfaz de usuario única, te permite jugar con los colores, tamaños de borde, tamaño de la 
+            fuente, paddings, margenes, sombras y otros elementos y propiedades.
+        </p>
+    </div>
+    <div class="flex-item">
+        <h1>Foundation</h1>
+        <img src="img/foundation.svg" width="360px">
+        <p>
+            Este Framework junto con Bootstrap son uno de los más utilizados en la actualidad, Foundation 
+            es más sofisticado, asimismo es muy flexible y fácil de personalizar. Este Framework CSS te 
+            permite crear aplicaciones y páginas web adaptables a los dispositivos, empresas como Mozilla, 
+            HP, Cisco, eBay, Facebook, Adobe, Disney, entre otras, usan Foundation.
+        </p>
+    </div>
+    </div>
+
+    <div class="flex-item3">
+            <h1>Bibliografía</h1>
+            <p>
+                <i>Aponte, Á. M. V. (2014). Guía comparativa de Frameworks para los lenguajes HTML 5, CSS y JavaScript para el desarrollo <br>
+                    de aplicaciones Web (Doctoral dissertation, Universidad Tecnológica de Pereira. Facultad de Ingenierías Eléctrica, Electrónica, <br>
+                    Física y Ciencias de la Computación. Ingeniería de Sistemas y Computación).
+                </i>
+                <br><br>
+                <i>
+                    Muente, G. (8 de Enero de 2020). www.edix.com. Obtenido de www.edix.com: https://www.edix.com/es/instituto/framework/
+                </i>
+            </p>
+    </div>  
+
+    <footer class="footer mt-4 py-3 bg-light text-center">
+      <div class="container">
+        <span class="fw-muted">
+          E-mail: ajmontesa@unadvirtual.edu.co <br> Skype: abel.monts2014_1 <br> 28/11/2021
+        </span>
+      </div>
+  </footer>
+</body>
+</html>

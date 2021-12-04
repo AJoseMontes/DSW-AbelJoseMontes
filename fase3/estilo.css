@@ -52,7 +52,7 @@ nav ul a{
 }
 
 nav ul a:hover{
-    background: #474747;
+    background: #e5fffd;
     color: #C0C4C3;
 } 
 
@@ -259,4 +259,8 @@ audio{
     background-color: #FDF2E9;
     border-radius: 10px;
     box-shadow: 10px 10px 20px 3px #505050
+}
+
+.bg-header{
+        background: #97CCC6;
 }
