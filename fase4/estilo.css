@@ -50,11 +50,13 @@ nav ul a{
     font-family: Verdana;
     padding: 15px;
     display: block;
+    border-radius: 5px;
 }
 
 nav ul a:hover{
     background: #e5fffd;
     color: #666666;
+    border-radius: 5px;
 } 
 
 nav ul li ul{
@@ -73,7 +75,6 @@ nav ul li:hover > ul {
     border: 1px solid #474747;
     border-radius: 5px;
     justify-content: center;
-    position: block;
     box-shadow: 10px 10px 20px 3px #505050;
 
 }
@@ -260,8 +261,8 @@ audio{
 .flex-video{
     margin: 25px;
     padding-top: 40px;
-    width: 600px;
-    height: 400px
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .text-bold{
@@ -269,10 +270,22 @@ audio{
 }
 
 #asideunad{
-    display: inline-block;
+    display: flex;
     padding: 25px;
     margin-top: 15px;
     background-color: #FDF2E9;
     border-radius: 10px;
-    box-shadow: 10px 10px 20px 3px #505050
+    box-shadow: 10px 10px 20px 3px #505050;
+    flex-wrap: wrap;
+}
+
+iframe{
+    display: flex;
+}
+
+#infov{
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    padding-bottom: 10px;
 }
